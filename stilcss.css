@@ -1,0 +1,325 @@
+﻿h1{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #f23c3c;
+    font-size: x-large;
+}
+
+h2{
+    color: gray;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size:large;
+}
+
+body {
+    font-size: 14px;
+	color: #000000;
+	font-family: Verdana;
+    background-color: #f2eaea;
+}
+
+section a:visited{
+    color:purple;
+} 
+
+
+/*microsoft logo za povratak na naslovnicu*/
+header img{
+	float: right;
+    padding-right: 100px;
+	padding-top: 10px;
+}
+
+header p{
+	font-family: Verdana;
+    color: #f23c3c;
+    padding-left: 50px;
+	font-weight: bold;
+	padding-top:35px;
+	float: left;
+	font-size: 25px;
+}
+
+
+/*wrapper - omotač*/
+#wrapper{
+    width:900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*zaglavlje*/
+header{
+    width: 900px;
+	height: 120px;
+	box-shadow: #f23c3c 2px 3px 15px 0px;
+	-webkit-box-shadow: 2px 3px 15px 0px #f23c3c;
+	-moz-box-shadow:    2px 3px 15px 0px #f23c3c;
+}
+/*podnožje*/
+footer{
+    color: white;
+    background-color: #f23c3c;
+    color: white;
+    width: 890px;
+    height:60px;
+  /*tekst u podnožju*/
+    text-align:center;
+	color: #303030;
+	border-top:2px solid #b4b4b4;
+	box-shadow: 
+    0 -10px #E1E1E1, 0 2px #E1E1E1,                   
+    -2px 0 10px -2px#f23c3c, 6px 0 10px -2px#f23c3c; 
+}
+
+/*pseudo klasa*/
+a.footer_poveznica:link, a.footer_poveznica:hover, a.footer_poveznica:visited
+{
+	color:white;
+    text-decoration:none;
+}
+
+footer p {
+    color: white;
+}
+
+.footer_tekst {
+    color: white;
+    padding:5px 5px 5px 5px;
+}
+
+
+/*sadržaj*/
+
+section{
+    border: 1px solid #e0e0e0;
+    width:auto;
+    padding-right:30px;
+    min-height:408px;
+    margin-top:0px;
+	box-shadow:#f23c3c 2px 3px 15px 0px;
+	-webkit-box-shadow: 2px 3px 15px 0px #f23c3c;
+	-moz-box-shadow:    2px 3px 15px 0px #f23c3c;
+}
+
+article p{
+    text-align: justify;
+    padding-left:10px;
+    margin-left: 135px;
+    font-size:medium;
+}
+
+
+article ul{
+	list-style-position: inside;
+    padding-left: 30px;
+	margin-left:130px;
+}
+article li{
+        font-family:Verdana;
+}
+
+article ol{
+    color:#3b3b3b;
+    list-style:decimal;
+	margin-left:-40px;
+}
+
+article ol ol{
+    color:#3b3b3b;
+    list-style:lower-alpha;
+    margin-left:-15px;
+}
+
+article ol ul {
+    font-size:medium;
+}
+
+article ol ul ul {
+    list-style-position: inside;
+    font-size: medium;
+    margin-left: 20px;
+}
+
+figure{
+text-align: center;
+display: block;
+margin: 0 auto;
+}
+
+.naslov_slike{
+    color:#3b3b3b;
+    padding: 10px 0px 10px 0px;
+    font-size:smaller;
+    text-align:center;
+}
+a:link{
+	text-decoration:none;
+    color:#0043A8;
+}
+.centrirano{
+margin:auto;
+display:block;
+}
+
+.okvir {
+    box-shadow: 3px 3px 5px #b4b4b4;
+    border: 2px solid gray;
+}
+
+table{
+    margin-left:auto;
+    margin-right:auto;
+    width:30%;
+    border-collapse:collapse;
+    text-align:center;
+}
+td{
+    color:#3b3b3b;
+    border: 1px solid #b4b4b4;
+ }
+th{
+    border: 1px solid #b4b4b4;
+    background-color:#0043A8;
+    color:white;
+}
+
+/*navigacije*/
+/*horizontalna navigacija*/
+#horizontalna{
+  width: 900px;
+  height: 50px;
+  margin: auto;
+  text-align: center; 
+  background-color: #f23c3c;
+  border:2px solid #b4b4b4;
+  border-right:none;
+  border-left:none;
+  box-shadow: 0 10px white,                						 
+			  -2px 0 10px -2px #f23c3c, 6px 0 10px -2px #f23c3c; 
+}
+
+#horizontalna ul
+{
+	list-style-type:none;
+    overflow:hidden;
+	margin: 10px;
+	padding-bottom: 3px;
+}
+
+#horizontalna li
+{
+	float:left;
+	margin-left: 10px;
+}
+
+#horizontalna a:link, a:visited
+{
+    font-family:Calibri;
+	font-size: 14px;
+	display:block;
+    text-align:center;
+	width:112px;
+	height: 20px;
+	font-weight:bold;
+	color:white; 
+	background-color: #f23c3c; 
+	padding:3px;
+	text-decoration:none;
+	text-transform:uppercase;
+    border-bottom: 2px solid white;
+
+}
+
+#horizontalna a:hover
+{
+	background-color:#f23c3c;
+	color:#b4b4b4;
+    border-top: 2px solid #b4b4b4; 
+    border-bottom: 2px solid #b4b4b4; 
+}
+
+#horizontalna a:active{
+    color:#0063ff;
+}
+
+#horizontalna a:visited{
+    color:white;
+    border-bottom: 2px solid white;
+}
+
+
+/*vertikalna navigacija*/
+#vertikalna{
+    background-color: #f2eaea;
+    float:left;
+    width:120px;
+    min-height: 380px;
+    margin-right: 25px;
+    border-bottom-left-radius: 10px;
+}
+
+#vertikalna ul, li, li li {
+    padding:0px;
+    margin:0px;
+    font-family:Calibri;
+}
+
+#vertikalna ul{
+    line-height:25px;
+    font-size:large;
+    padding-top:10px;
+    padding-left:10px;
+}
+
+#vertikalna li{
+    background-color:#f2eaea;
+    list-style:none;
+    position:relative;
+    border: 2px solid #f23c3c;
+    border-left:2px solid #f23c3c;
+    margin-top:-1px;
+    font-weight: bold;
+}
+
+#vertikalna li li{
+    background-color:#f2eaea;
+    border:1px solid #f23c3c;
+    position:relative;
+    left:95px;
+    top:-36px;
+    margin-top:-1px;
+    margin-left:-1px;
+    list-style:none;
+}
+
+#vertikalna ul ul{
+    font-size:small;
+    position:absolute;
+    visibility:hidden;
+    top:26px;
+}
+
+#vertikalna ul li a:link, ul li a:visited{
+    background-color:none;
+    display: block;
+    width:92px;
+    text-decoration:none;
+    color:#f23c3c;
+    padding-left:8px;
+    line-height:25px;
+}
+
+#vertikalna ul li a:hover{
+    color:#3b3b3b;
+    background-color:white;
+    font-weight:bolder;
+}
+
+
+#vertikalna ul li:hover ul{
+    visibility:visible;
+}
+
+#vertikalna li:hover{
+     background-color:white;
+}
